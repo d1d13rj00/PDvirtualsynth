@@ -14,6 +14,10 @@ Some subpatches i've created :
 * vol : can be piped to other modules
 * master_vol : has dac~ output
 
+A patch example 
+
+![My sample patch image](patch_example.PNG)
+
 
 
 
