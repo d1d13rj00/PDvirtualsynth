@@ -8,7 +8,7 @@ Some subpatches i've created :
 * counter : count to specified number beginning with 0. Essential when working with sequencers
 * distort : Distort input signal
 * fm : basic FM generator
-* lfo : 1-20 Hz LFO
+* vibrato : 1-20 Hz vibrato
 * lowpass : low pass (lop x2)
 * metronome : send bang on specified bpm. Also ouputs multipliers greater control on sequencers
 * vol : can be piped to other modules
