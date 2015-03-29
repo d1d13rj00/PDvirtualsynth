@@ -2,14 +2,16 @@
 #X obj 18 243 dac~;
 #X obj 66 186 *~;
 #X obj 109 136 hsl 128 15 0 1 0 0 empty empty Master -2 -8 0 10 -262144
--1 -1 0 1;
-#X obj 106 159 tgl 15 0 empty empty On 17 7 0 10 -262144 -1 -1 0 1
-;
+-1 -1 8200 1;
+#X obj 106 159 tgl 15 0 empty empty On 17 7 0 10 -262144 -1 -1 0.645669
+0.645669;
 #X obj -9 95 inlet~;
+#X obj 152 74 inlet;
 #X connect 1 0 0 0;
 #X connect 1 0 0 1;
 #X connect 2 0 1 1;
 #X connect 2 0 3 0;
 #X connect 3 0 1 1;
 #X connect 4 0 1 0;
+#X connect 5 0 2 0;
 #X coords 0 -1 1 1 150 80 1 100 100;
