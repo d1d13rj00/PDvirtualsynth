@@ -4,12 +4,12 @@
 #X obj -21 390 osc~;
 #X obj -5 309 *~;
 #X obj 113 129 hsl 128 15 0 127 0 0 empty empty Carrier -2 -8 0 10
--262144 -1 -1 5500 1;
-#X obj 113 165 hsl 128 15 0 127 0 0 empty empty Modulation_(C:XM) -2
--8 0 10 -262144 -1 -1 0 1;
+-262144 -1 -1 3600 1;
+#X obj 113 165 hsl 128 15 13 127 0 0 empty empty Modulation_(C:XM)
+-2 -8 0 10 -262144 -1 -1 0 1;
 #X floatatom 244 165 8 0 0 0 - - -, f 8;
 #X obj 113 199 hsl 128 15 0 127 0 0 empty empty Modulation_amount -2
--8 0 10 -262144 -1 -1 1300 1;
+-8 0 10 -262144 -1 -1 700 1;
 #X floatatom 243 199 8 0 0 0 - - -, f 8;
 #X floatatom 243 129 8 0 0 0 - - -, f 8;
 #X obj -21 422 outlet~;
