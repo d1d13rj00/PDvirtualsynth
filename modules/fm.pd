@@ -1,28 +1,28 @@
-#N canvas 0 50 1440 796 10;
+#N canvas 2 52 1425 796 10;
 #X obj -6 270 osc~;
 #X obj -21 345 +~;
 #X obj -21 390 osc~;
 #X obj -5 309 *~;
-#X obj 113 129 hsl 128 15 0 127 0 0 empty empty Carrier -2 -8 0 10
--262144 -1 -1 3600 1;
-#X obj 113 165 hsl 128 15 13 127 0 0 empty empty Modulation_(C:XM)
--2 -8 0 10 -262144 -1 -1 0 1;
-#X floatatom 244 165 8 0 0 0 - - -, f 8;
-#X obj 113 199 hsl 128 15 0 127 0 0 empty empty Modulation_amount -2
--8 0 10 -262144 -1 -1 700 1;
-#X floatatom 243 199 8 0 0 0 - - -, f 8;
-#X floatatom 243 129 8 0 0 0 - - -, f 8;
+#X obj 108 129 hsl 128 15 0 127 0 0 empty empty Carrier -2 -8 0 10
+-262144 -1 -1 5700 1;
+#X obj 108 165 hsl 128 15 13 127 0 0 empty empty Modulation_(C:XM)
+-2 -8 0 10 -262144 -1 -1 11300 1;
+#X floatatom 239 165 8 0 0 0 - - -, f 8;
+#X obj 108 199 hsl 128 15 0 127 0 0 empty empty Modulation_amount -2
+-8 0 10 -262144 -1 -1 12100 1;
+#X floatatom 238 199 8 0 0 0 - - -, f 8;
+#X floatatom 238 129 8 0 0 0 - - -, f 8;
 #X obj -21 422 outlet~;
-#X obj 117 79 inlet;
-#X obj 215 80 inlet;
-#X obj 166 79 inlet;
+#X obj 112 79 inlet;
+#X obj 210 80 inlet;
+#X obj 161 79 inlet;
 #X obj 39 422 outlet~;
 #X obj 39 390 phasor~;
 #X obj -154 209 mtof;
 #X obj -154 241 sig~;
 #X obj -90 234 *;
-#X obj 82 242 * 40;
-#X obj 11 223 / 12.7;
+#X obj 77 242 * 40;
+#X obj 6 223 / 12.7;
 #X obj 11 245 int;
 #X obj -50 207 bng 15 250 50 0 empty empty empty 17 7 0 10 -262144
 -1 -1;

@@ -1,21 +1,21 @@
-#N canvas 93 174 720 528 10;
-#X obj 215 453 vline~;
+#N canvas 92 173 720 528 10;
+#X obj 121 403 vline~;
 #X obj 105 144 vsl 15 128 0 200 0 0 empty empty A 0 -9 0 10 -262144
--1 -1 500 1;
+-1 -1 1100 1;
 #X obj 121 315 pack 0 0 0 0;
 #X obj 120 144 vsl 15 128 0 500 0 0 empty empty D 0 -9 0 10 -262144
--1 -1 1000 1;
+-1 -1 1800 1;
 #X obj 135 144 vsl 15 128 0 1000 0 0 empty empty S 0 -9 0 10 -262144
--1 -1 700 1;
+-1 -1 10700 1;
 #X obj 150 144 vsl 15 128 0 1000 0 0 empty empty R 0 -9 0 10 -262144
--1 -1 1400 1;
-#X obj 60 291 bng 15 250 50 0 empty empty empty 17 7 0 10 -262144 -1
--1;
-#X msg 215 410 1 \$1 \, 0.7 \$2 0 \, 0 \$4 \$3;
-#X obj 157 504 *~;
-#X obj 105 453 inlet~;
-#X obj 157 526 outlet~;
-#X obj 261 247 inlet;
+-1 -1 11800 1;
+#X obj 261 258 bng 15 250 50 0 empty empty empty 17 7 0 10 -262144
+-1 -1;
+#X msg 121 360 1 \$1 \, 0.7 \$2 0 \, 0 \$4 \$3;
+#X obj 103 454 *~;
+#X obj 51 403 inlet~;
+#X obj 103 476 outlet~;
+#X obj 261 237 inlet;
 #X connect 0 0 8 1;
 #X connect 1 0 2 0;
 #X connect 2 0 7 0;
