@@ -1,18 +1,24 @@
 #N canvas 2 52 1425 823 10;
 #X obj 94 222 bp~;
 #X obj 106 135 hsl 128 15 30 127 0 0 empty empty Cutoff -2 -8 0 10
--262144 -1 -1 10900 1;
+-262144 -1 -1 8594 1;
 #X obj 103 175 mtof;
 #X floatatom 241 135 5 1 10 2 Resonance - -, f 5;
-#X obj 94 62 inlet~;
-#X obj 103 98 inlet;
+#X obj 94 22 inlet~;
+#X obj 103 48 inlet;
 #X obj 241 102 inlet;
 #X obj 94 244 outlet~;
+#X msg 331 85 1;
+#X obj 331 58 loadbang;
+#X obj 103 95 line \$1 10;
 #X connect 0 0 7 0;
 #X connect 1 0 2 0;
 #X connect 2 0 0 1;
 #X connect 3 0 0 2;
 #X connect 4 0 0 0;
-#X connect 5 0 1 0;
+#X connect 5 0 10 0;
 #X connect 6 0 3 0;
+#X connect 8 0 3 0;
+#X connect 9 0 8 0;
+#X connect 10 0 1 0;
 #X coords 0 -1 1 1 210 60 1 100 100;
