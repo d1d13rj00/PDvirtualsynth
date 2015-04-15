@@ -2,9 +2,11 @@
 
 ---
 ## Building a virtual synthesizer with Puredata
-### Oscillators
+.left-column[### Oscillators]
+.right-column[
 * fm : basic FM generator
 * oscy
+]
 
 ---
 ## Building a virtual synthesizer with Puredata
