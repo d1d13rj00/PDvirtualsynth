@@ -50,10 +50,17 @@
 ---
 
 ## Building a virtual synthesizer with Puredata
-A patch example 
+### A patch example 
 
 ![My sample patch image](patch_example.PNG)
 
+---
 
+## Building a virtual synthesizer with Puredata
+### Using MIDI controller
+#### Creative Prodikeys Pc-midi  
+![](http://ecx.images-amazon.com/images/I/41HWE1F0EAL._SY300_.jpg) 
+#### Creative Prodikeys Pc-midi  
+![](http://ecx.images-amazon.com/images/I/41DxzKUsU8L.jpg)
 
 
