@@ -1,13 +1,13 @@
 ## Building a virtual synthesizer with Puredata
 
 ---
-
+## Building a virtual synthesizer with Puredata
 ### Oscillators
 * fm : basic FM generator
 * oscy
 
 ---
-
+## Building a virtual synthesizer with Puredata
 ### Filters
 * filter : vcf
 * adsr : simple ASDR control
@@ -15,7 +15,7 @@
 * lowpass : low pass (lop x2)
 
 ---
-
+## Building a virtual synthesizer with Puredata
 ### Envelope generators and control
 * vibrato : 1-20 Hz vibrato
 * pitch_ctl
@@ -24,7 +24,7 @@
 
 ---
 
-
+## Building a virtual synthesizer with Puredata
 ### Volume control
 * crossfader
 * vol : can be piped to other modules
@@ -32,7 +32,7 @@
 
 ---
 
-
+## Building a virtual synthesizer with Puredata
 ### Sequencers
 * beat_seq : Basic beat machine
 * counter : count to specified number beginning with 0. Essential when working with sequencers
@@ -40,7 +40,7 @@
 
 ---
 
-
+## Building a virtual synthesizer with Puredata
 ### Misc
 
 * Octave transpose
