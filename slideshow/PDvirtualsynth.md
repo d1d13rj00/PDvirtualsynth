@@ -57,9 +57,9 @@
 ---
 
 ## Building a virtual synthesizer with Puredata
-### Using MIDI controller
-#### Creative Prodikeys Pc-midi  
-![](http://ecx.images-amazon.com/images/I/41HWE1F0EAL._SY300_.jpg) 
+.left-column[### Using MIDI controller]
+.right-column[#### Creative Prodikeys Pc-midi  
+![](http://ecx.images-amazon.com/images/I/41HWE1F0EAL._SY300_.jpg)]
 #### Novation Impulse 61 
 ![](http://ecx.images-amazon.com/images/I/41DxzKUsU8L.jpg)
 
