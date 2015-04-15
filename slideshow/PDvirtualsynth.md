@@ -49,7 +49,7 @@
 
 ---
 
-
+## Building a virtual synthesizer with Puredata
 A patch example 
 
 ![My sample patch image](patch_example.PNG)
