@@ -60,7 +60,7 @@
 ### Using MIDI controller
 #### Creative Prodikeys Pc-midi  
 ![](http://ecx.images-amazon.com/images/I/41HWE1F0EAL._SY300_.jpg) 
-#### Creative Prodikeys Pc-midi  
+#### Novation Impulse 61 
 ![](http://ecx.images-amazon.com/images/I/41DxzKUsU8L.jpg)
 
 
