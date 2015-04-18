@@ -1,7 +1,7 @@
 #N canvas 2 52 1425 823 10;
 #X obj 94 222 bp~;
-#X obj 106 135 hsl 128 15 30 300 0 0 empty empty Cutoff -2 -8 0 10
--262144 -1 -1 10500 1;
+#X obj 106 135 hsl 128 15 30 127 0 0 empty empty Cutoff -2 -8 0 10
+-262144 -1 -1 0 1;
 #X obj 103 175 mtof;
 #X floatatom 241 135 5 1 10 2 Resonance - -, f 5;
 #X obj 94 22 inlet~;
