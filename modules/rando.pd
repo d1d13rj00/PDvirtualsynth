@@ -1,14 +1,14 @@
-#N canvas 746 269 450 300 10;
+#N canvas 743 266 450 300 10;
 #X obj 76 37 inlet;
 #X obj 76 89 / 0.254;
-#X floatatom 106 131 5 0 0 2 Rate_(0-500ms) - -, f 5;
+#X floatatom 106 131 5 0 500 2 Rate_(0-500ms) - -, f 5;
 #X obj 16 160 metro 100;
 #X obj 6 37 loadbang;
 #X msg 6 89 1;
 #X obj 16 199 random 100;
 #X obj 136 37 inlet;
 #X obj 136 89 / 0.254;
-#X floatatom 106 161 5 0 0 2 Range_(0-1000) - -, f 5;
+#X floatatom 106 161 5 0 1000 2 Range_(0-1000) - -, f 5;
 #X floatatom 16 221 5 0 0 0 - - -, f 5;
 #X obj 16 240 outlet;
 #X text 262 78 comment;
