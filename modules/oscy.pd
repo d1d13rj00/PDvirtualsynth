@@ -1,26 +1,29 @@
-#N canvas 2 52 1425 823 10;
+#N canvas 0 51 1440 823 10;
 #X obj -281 31 inlet;
 #X obj -281 153 phasor~;
-#X obj -211 153 phasor~;
-#X obj -210 176 expr~ $v1 > $v2;
-#X obj -108 30 inlet;
+#X obj -208 153 phasor~;
+#X obj -207 176 expr~ $v1 > $v2;
+#X obj 202 30 inlet;
 #X floatatom -281 64 5 0 0 0 - - -, f 5;
-#X obj 109 166 hsl 128 15 5 120 0 0 empty empty PWM -2 -8 0 10 -262144
+#X obj 109 164 hsl 128 15 5 120 0 0 empty empty PWM -2 -8 0 10 -262144
 -1 -1 0 1;
-#X obj -108 72 / 127;
-#X obj -210 198 -~ 0.5;
-#X obj 176 129 tgl 15 0 empty empty Ramp 17 7 0 10 -262144 -1 -1 1
+#X obj -105 72 / 127;
+#X obj -207 198 -~ 0.5;
+#X obj 156 129 tgl 15 0 empty empty Ramp 17 7 0 10 -262144 -1 -1 0
 1;
 #X obj -282 273 *~;
-#X obj 247 129 tgl 15 0 empty empty Square 17 7 0 10 -262144 -1 -1
+#X obj 207 129 tgl 15 0 empty empty Square 17 7 0 10 -262144 -1 -1
 0 1;
-#X obj -211 273 *~;
-#X obj 107 129 tgl 15 0 empty empty Sine 17 7 0 10 -262144 -1 -1 1
+#X obj -208 273 *~;
+#X obj 107 129 tgl 15 0 empty empty Sine 17 7 0 10 -262144 -1 -1 0
 1;
-#X obj -351 273 *~;
-#X obj -351 152 osc~;
+#X obj -332 274 *~;
+#X obj -332 153 osc~;
 #X obj -283 401 outlet~;
 #X obj -282 354 *~ 0.25;
+#X obj -18 30 inlet;
+#X obj 32 30 inlet;
+#X obj 82 30 inlet;
 #X connect 0 0 5 0;
 #X connect 1 0 10 0;
 #X connect 2 0 3 0;
@@ -40,4 +43,7 @@
 #X connect 14 0 17 0;
 #X connect 15 0 14 0;
 #X connect 17 0 16 0;
+#X connect 18 0 13 0;
+#X connect 19 0 9 0;
+#X connect 20 0 11 0;
 #X coords 0 -1 1 1 210 90 1 100 100;
