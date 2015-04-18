@@ -1,0 +1,7 @@
+#N canvas 2 52 821 504 10;
+#X obj 24 30 master_vol;
+#X obj 120 30 rando;
+#X obj 240 30 lfo;
+#X obj 400 30 lfo;
+#X obj 125 126 oscy;
+#X obj 426 182 adsr;
